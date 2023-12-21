@@ -19,7 +19,7 @@
 
 .description {
     margin: 30px auto;
-    
+
     align-items: center;
     text-align: justify;
     display: flex;
@@ -38,33 +38,35 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.game-content{
+
+.game-content {
     display: flex;
     flex-direction: column;
     margin: 30px;
     padding: 10px;
 }
-.instruction
-{
+
+.instruction {
     font-size: 25px;
-    color:gray;
+    color: gray;
 }
-.number{
-font-size: 30px;
-color: rgb(229, 0, 0);
+
+.number {
+    font-size: 30px;
+    color: rgb(229, 0, 0);
 }
-.guess-area
-{
+
+.guess-area {
     display: flex;
     flex-direction: column;
     align-items: center;
-background-color: #d4d4d4;
-margin: 10px;
-padding: 20px;
-font-size: 20px;
+    background-color: #d4d4d4;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
 }
-#guess
-{
+
+#guess {
     border: none;
     margin: 20px;
     padding: 10px;
@@ -72,8 +74,8 @@ font-size: 20px;
     height: auto;
 }
 
-.guessednum-title
-{
+
+.guessednum-title {
     font-size: 20px;
     color: rgb(109, 107, 107);
 
