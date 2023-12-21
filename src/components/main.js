@@ -6,11 +6,10 @@ const Main = () => {
   return (
     <div className='App'>
     <Header />
-      <div className='game-ui'>
         <div className='game-content'>
           <h2 className='number'>The number is ...</h2>
           <div className='guess-area'>
-            <p>Enter your area:</p>
+            <p className='instruction'>Enter your area:</p>
             <input type="text" id="guess" name="guess" /><br />
             <p className='guessednum-title'>Guessed numbers:</p>
             <div className='guessednums'></div>
@@ -21,7 +20,6 @@ const Main = () => {
         </div>
       </div>
 
-    </div>
 
   )
 }
