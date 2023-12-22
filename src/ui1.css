@@ -50,6 +50,11 @@
     font-size: 25px;
     color: gray;
 }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 .number {
     font-size: 30px;
@@ -78,5 +83,16 @@
 .guessednum-title {
     font-size: 20px;
     color: rgb(109, 107, 107);
+
+}
+.guessednums
+{
+    background-color: #9b9b9b;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 38px;
+    color: aliceblue;
+    text-align: left;
+    align-items: center;
 
 }
