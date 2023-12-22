@@ -42,7 +42,7 @@ const Main = () =>
         <h2 className='number'>The number is ...</h2>
 
         <div className='guess-area'>
-          <p className='instruction'>Enter your area:</p>
+          <p className='instruction'>Enter your guess:</p>
           <input
             type="number"
             id="guess"
@@ -50,7 +50,7 @@ const Main = () =>
             value={guess}
             onChange={(e) => setGuess(e.target.value)} />
 
-          <button onClick={handleGuess}>Submit</button>
+          <button className='button' onClick={handleGuess}>Submit</button>
 
           <br />
 

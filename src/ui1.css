@@ -3,9 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #6b9fff;
+}
 .main-heading {
-    box-shadow: 1px 0px 10px #000fff;
+    background-color: #fff;
+    /* box-shadow: 1px 1px 10px #a9a9a9; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(49, 91, 158);
 }
 
 .gametitle {
@@ -50,6 +60,7 @@
     font-size: 25px;
     color: gray;
 }
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -58,15 +69,18 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .number {
     font-size: 30px;
-    color: rgb(229, 0, 0);
+    color: rgb(255, 230, 147);
 }
 
 .guess-area {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 600px;
+    height: auto;
     background-color: #d4d4d4;
-    margin: 10px;
+    margin: 10px 500px;
     padding: 20px;
     font-size: 20px;
 }
@@ -75,23 +89,34 @@ input[type="number"]::-webkit-outer-spin-button {
     border: none;
     margin: 20px;
     padding: 10px;
-    width: 30%;
+    width: 50%;
     height: auto;
+    font-size: 20px;
 }
 
+
+.button {
+    margin: 10px;
+    padding: 7px 16px;
+    border: none;
+    font-size: 20px;
+    background-color: #5fadce;
+    color: white;
+    cursor: pointer;
+}
 
 .guessednum-title {
     font-size: 20px;
     color: rgb(109, 107, 107);
 
 }
-.guessednums
-{
-    background-color: #9b9b9b;
+
+.guessednum {
+    background-color: #b7b7b7;
     display: inline-block;
     margin: 5px;
     padding: 10px 38px;
-    color: aliceblue;
+    color: rgb(105, 105, 105);
     text-align: left;
     align-items: center;
 
